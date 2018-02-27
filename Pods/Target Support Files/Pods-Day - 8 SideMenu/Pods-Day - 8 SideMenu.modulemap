@@ -1,0 +1,6 @@
+framework module Pods_Day___8_SideMenu {
+  umbrella header "Pods-Day - 8 SideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

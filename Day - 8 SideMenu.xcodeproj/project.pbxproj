@@ -12,9 +12,13 @@
 		0DAA48582029C92200DE8426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAA48562029C92200DE8426 /* Main.storyboard */; };
 		0DAA485A2029C92200DE8426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAA48592029C92200DE8426 /* Assets.xcassets */; };
 		0DAA485D2029C92200DE8426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAA485B2029C92200DE8426 /* LaunchScreen.storyboard */; };
+		0DAA48672029F88500DE8426 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAA48662029F88500DE8426 /* SWRevealViewController.m */; };
+		D0CA8DEF93ED003C4FFF3FA2 /* Pods_Day___8_SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A1282F7F4E91993727BFE4 /* Pods_Day___8_SideMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00C3B46B8CB837CC791CFE45 /* Pods-Day - 8 SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day - 8 SideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Day - 8 SideMenu/Pods-Day - 8 SideMenu.release.xcconfig"; sourceTree = "<group>"; };
+		05A1282F7F4E91993727BFE4 /* Pods_Day___8_SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Day___8_SideMenu.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAA484F2029C92200DE8426 /* Day - 8 SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day - 8 SideMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAA48522029C92200DE8426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DAA48542029C92200DE8426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		0DAA48592029C92200DE8426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DAA485C2029C92200DE8426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DAA485E2029C92200DE8426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAA48642029F88400DE8426 /* Day - 8 SideMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Day - 8 SideMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DAA48652029F88500DE8426 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0DAA48662029F88500DE8426 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9341A09CE1C7A6DC7411135B /* Pods-Day - 8 SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Day - 8 SideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Day - 8 SideMenu/Pods-Day - 8 SideMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CA8DEF93ED003C4FFF3FA2 /* Pods_Day___8_SideMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				0DAA48512029C92200DE8426 /* Day - 8 SideMenu */,
 				0DAA48502029C92200DE8426 /* Products */,
+				D2E14F5DABB891B07313AF3D /* Pods */,
+				3D79C6FAD8AD765635A5D3BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,32 @@
 			children = (
 				0DAA48522029C92200DE8426 /* AppDelegate.swift */,
 				0DAA48542029C92200DE8426 /* ViewController.swift */,
+				0DAA48652029F88500DE8426 /* SWRevealViewController.h */,
+				0DAA48662029F88500DE8426 /* SWRevealViewController.m */,
 				0DAA48562029C92200DE8426 /* Main.storyboard */,
 				0DAA48592029C92200DE8426 /* Assets.xcassets */,
 				0DAA485B2029C92200DE8426 /* LaunchScreen.storyboard */,
 				0DAA485E2029C92200DE8426 /* Info.plist */,
+				0DAA48642029F88400DE8426 /* Day - 8 SideMenu-Bridging-Header.h */,
 			);
 			path = "Day - 8 SideMenu";
+			sourceTree = "<group>";
+		};
+		3D79C6FAD8AD765635A5D3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A1282F7F4E91993727BFE4 /* Pods_Day___8_SideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E14F5DABB891B07313AF3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9341A09CE1C7A6DC7411135B /* Pods-Day - 8 SideMenu.debug.xcconfig */,
+				00C3B46B8CB837CC791CFE45 /* Pods-Day - 8 SideMenu.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DAA48612029C92200DE8426 /* Build configuration list for PBXNativeTarget "Day - 8 SideMenu" */;
 			buildPhases = (
+				973879D7BC88594F9F11276C /* [CP] Check Pods Manifest.lock */,
 				0DAA484B2029C92200DE8426 /* Sources */,
 				0DAA484C2029C92200DE8426 /* Frameworks */,
 				0DAA484D2029C92200DE8426 /* Resources */,
+				7A94323B4471C6B90361FDDA /* [CP] Embed Pods Frameworks */,
+				9D6A6F82CC5C7C378BBDBEB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +130,7 @@
 				TargetAttributes = {
 					0DAA484E2029C92200DE8426 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +166,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A94323B4471C6B90361FDDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Day - 8 SideMenu/Pods-Day - 8 SideMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day - 8 SideMenu/Pods-Day - 8 SideMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973879D7BC88594F9F11276C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Day - 8 SideMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6A6F82CC5C7C378BBDBEB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Day - 8 SideMenu/Pods-Day - 8 SideMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DAA484B2029C92200DE8426 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +227,7 @@
 			files = (
 				0DAA48552029C92200DE8426 /* ViewController.swift in Sources */,
 				0DAA48532029C92200DE8426 /* AppDelegate.swift in Sources */,
+				0DAA48672029F88500DE8426 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +362,18 @@
 		};
 		0DAA48622029C92200DE8426 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9341A09CE1C7A6DC7411135B /* Pods-Day - 8 SideMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Day - 8 SideMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.Day---8-SideMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Day - 8 SideMenu/Day - 8 SideMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +381,17 @@
 		};
 		0DAA48632029C92200DE8426 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C3B46B8CB837CC791CFE45 /* Pods-Day - 8 SideMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Day - 8 SideMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.leftrightmind.Day---8-SideMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Day - 8 SideMenu/Day - 8 SideMenu-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
